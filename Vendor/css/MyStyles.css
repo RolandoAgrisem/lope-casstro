@@ -7,8 +7,8 @@
 
 /* Colors */
 :root {
-  --color-default: #364d59;
-  --color-primary: #feb900;
+  --color-default: #32586B;
+  --color-primary: #F68634;
   --color-secondary: #52565e;
 }
 
@@ -2569,10 +2569,10 @@ section {
 --------------------------------------------------------------*/
 .footer {
   color: #fff;
-  background: url("../img/footer-bg.jpg") top center no-repeat;
+  background: url("../../assets/imagenes/footer-bg.png") top center no-repeat;
   background-size: cover;
   font-size: 14px;
-  padding: 80px 0 60px 0;
+  padding: 50px 0 30px 0;
   position: relative;
 }
 
@@ -2676,4 +2676,42 @@ section {
 
 .footer .footer-legal .credits a {
   color: var(--color-primary);
+}
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+.service-card {
+  transition: all 0.3s ease;
+  border: none;
+  border-radius: 15px;
+  overflow: hidden;
+  background: linear-gradient(145deg, #ffffff, #f3f3f3);
+  box-shadow: 5px 5px 15px #d9d9d9, -5px -5px 15px #ffffff;
+}
+
+.service-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 8px 8px 20px #d1d1d1, -8px -8px 20px #ffffff;
+}
+
+.icon-wrapper {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  background: linear-gradient(135deg, #f68634, #f9a76c);
+}
+
+.service-title {
+  color: var(--color-default);
+  font-weight: 600;
+}
+
+.service-text {
+  color: #718096;
+  font-size: 0.95rem;
 }
