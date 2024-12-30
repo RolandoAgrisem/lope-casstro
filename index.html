@@ -3,50 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lope Castro</title>
+    <meta content="Sitio web de Contruccion, Inmobiliaria y credito." name="description">
+    <meta content="Lope Castro" name="keywords">
+    <title>Lope Castro | Contrucci&oacute;n, Inmobiliaria y Cr&eacute;dito</title>
     <link href="./Vendor/Boostrap5/bootstrap.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <style>
-        body {
-            font-family: 'Roboto', sans-serif;
-        }
-        .hero {
-            background: url('./assets/imagenes/hero-bg.jpg') no-repeat center center/cover;
-            color: white;
-            text-align: center;
-            padding: 100px 0;
-            height: 100vh;
-        }
-        .services .card:hover {
-            transform: scale(1.05);
-            transition: transform 0.3s ease;
-        }
-        .gallery img {
-            border-radius: 10px;
-        }
-    </style>
+    <link rel="stylesheet" href="./Vendor/css/MyStyles.css">
 </head>
 <body>
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container">
-            <a class="navbar-brand" href="#">
-                <img src="./assets/imagenes/logo-lg.jpg" alt="Lope Castro" style="width: 150px;">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="#about">Sobre Nosotros</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#services">Servicios</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#gallery">Galería</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonios</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#contact">Contacto</a></li>
-                </ul>
-            </div>
+    <header id="header" class="header d-flex align-items-center">
+        <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+    
+          <a href="index.html" class="logo d-flex align-items-center">
+            <img src="./assets/imagenes/logo-lg.jpg" alt="Lope Castro" style="width: 150px;">
+          </a>
+    
+          <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+          <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+          <nav id="navbar" class="navbar">
+            <ul>
+              <li><a href="index.html" class="active">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="services.html">Services</a></li>
+              <li><a href="projects.html">Projects</a></li>
+              <li><a href="blog.html">Blog</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </nav><!-- .navbar -->
+    
         </div>
-    </nav>
+      </header><!-- End Header -->
 
     <!-- Hero Section -->
     <section class="hero">
