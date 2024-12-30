@@ -3,32 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lope Castro</title>
+    <title>Lope Castro - Construcción, Inmobiliaria y Crédito</title>
     <link href="./Vendor/Boostrap5/bootstrap.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <style>
-        body {
-            font-family: 'Roboto', sans-serif;
-        }
-        .hero {
-            background: url('./assets/imagenes/hero-bg.jpg') no-repeat center center/cover;
-            color: white;
-            text-align: center;
-            padding: 100px 0;
-            height: 100vh;
-        }
-        .services .card:hover {
-            transform: scale(1.05);
-            transition: transform 0.3s ease;
-        }
-        .gallery img {
-            border-radius: 10px;
-        }
-    </style>
+    <link rel="stylesheet" href="./Vendor/css/styles.css">
 </head>
 <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow">
         <div class="container">
             <a class="navbar-brand" href="#">
                 <img src="./assets/imagenes/logo-lg.jpg" alt="Lope Castro" style="width: 150px;">
@@ -44,132 +26,126 @@
                     <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonios</a></li>
                     <li class="nav-item"><a class="nav-link" href="#contact">Contacto</a></li>
                 </ul>
+                <a class="btn btn-primary ms-3" href="#contacto">Contáctanos</a>
             </div>
         </div>
     </nav>
 
     <!-- Hero Section -->
-    <section class="hero">
-        <div class="container">
-            <h1 class="display-4 fw-bold">Construcción, Inmobiliaria y Créditos</h1>
-            <p class="lead">Transformamos tus ideas en realidad. Descubre cómo podemos ayudarte.</p>
-            <a href="#services" class="btn btn-primary btn-lg">Explorar Servicios</a>
+    <div class="hero">
+        <div class="row">
+            <div class="col-md-8">
+                <h1>Construimos tus sueños a medida</h1>
+                <p>Residencial, comercial, inmobiliaria y créditos con más de 10 años de experiencia.</p>
+                <a href="#contacto" class="btn btn-primary btn-lg">Descubre más</a>
+            </div>
         </div>
-    </section>
-
-    <!-- About Section -->
-    <section id="about" class="py-5">
-        <div class="container text-center">
-            <h2 class="mb-4">Sobre Nosotros</h2>
-            <p class="lead">Con más de 20 años de experiencia, ofrecemos soluciones completas en construcción, inmobiliaria y financiamiento. Nuestro compromiso es crear espacios que inspiren y cumplan con tus necesidades.</p>
-        </div>
-    </section>
+    </div>
 
     <!-- Services Section -->
-    <section id="services" class="py-5 bg-light">
+    <section id="services" class="services-section">
         <div class="container text-center">
-            <h2 class="mb-4">Servicios</h2>
-            <div class="row g-4">
+            <h2>Nuestros Servicios</h2>
+            <div class="row mt-4">
                 <div class="col-md-4">
-                    <div class="card border-0 shadow">
-                        <div class="card-body">
-                            <h3 class="card-title">Construcción</h3>
-                            <p class="card-text">Edificación de calidad para proyectos residenciales y comerciales.</p>
-                        </div>
-                    </div>
+                    <h4>Construcción</h4>
+                    <p>Proyectos residenciales y comerciales adaptados a tus necesidades.</p>
                 </div>
                 <div class="col-md-4">
-                    <div class="card border-0 shadow">
-                        <div class="card-body">
-                            <h3 class="card-title">Inmobiliaria</h3>
-                            <p class="card-text">Compra, venta y renta de propiedades al mejor precio del mercado.</p>
-                        </div>
-                    </div>
+                    <h4>Inmobiliaria</h4>
+                    <p>Encuentra la propiedad ideal con nuestro equipo especializado.</p>
                 </div>
                 <div class="col-md-4">
-                    <div class="card border-0 shadow">
-                        <div class="card-body">
-                            <h3 class="card-title">Créditos</h3>
-                            <p class="card-text">Facilitamos el financiamiento para que hagas realidad tus proyectos.</p>
-                        </div>
-                    </div>
+                    <h4>Créditos</h4>
+                    <p>Accede a opciones de financiamiento diseñadas para ti.</p>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Gallery Section -->
-    <section id="gallery" class="py-5">
+    <section id="gallery" class="gallery-section bg-light">
         <div class="container text-center">
-            <h2 class="mb-4">Galería</h2>
-            <div class="row g-4">
-                <div class="col-md-3">
-                    <img src="photo1.jpg" class="img-fluid" alt="Proyecto 1">
+            <h2>Galería</h2>
+            <p>Conoce algunos de nuestros proyectos destacados.</p>
+            <div class="row mt-4">
+                <div class="col-md-4">
+                    <img src="https://via.placeholder.com/300" class="img-fluid rounded" alt="Proyecto 1">
                 </div>
-                <div class="col-md-3">
-                    <img src="photo2.jpg" class="img-fluid" alt="Proyecto 2">
+                <div class="col-md-4">
+                    <img src="https://via.placeholder.com/300" class="img-fluid rounded" alt="Proyecto 2">
                 </div>
-                <div class="col-md-3">
-                    <img src="photo3.jpg" class="img-fluid" alt="Proyecto 3">
-                </div>
-                <div class="col-md-3">
-                    <img src="photo4.jpg" class="img-fluid" alt="Proyecto 4">
+                <div class="col-md-4">
+                    <img src="https://via.placeholder.com/300" class="img-fluid rounded" alt="Proyecto 3">
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Testimonials Section -->
-    <section id="testimonials" class="py-5 bg-light">
+    <section id="testimonials" class="testimonials-section">
         <div class="container text-center">
-            <h2 class="mb-4">Testimonios</h2>
-            <div id="testimonialsCarousel" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <p>"Excelente servicio y atención. Construyeron nuestra casa soñada." - Juan Pérez</p>
-                    </div>
-                    <div class="carousel-item">
-                        <p>"La asesoría en créditos fue muy clara y profesional." - María López</p>
-                    </div>
-                    <div class="carousel-item">
-                        <p>"Recomiendo sus servicios inmobiliarios, todo el proceso fue fácil y rápido." - Luis Gómez</p>
-                    </div>
+            <h2>Testimonios</h2>
+            <p>Lo que nuestros clientes dicen de nosotros.</p>
+            <div class="row mt-4">
+                <div class="col-md-6">
+                    <blockquote class="blockquote">
+                        <p>"Gracias a Lope Castro logramos construir la casa de nuestros sueños."</p>
+                        <footer class="blockquote-footer">Ana Pérez</footer>
+                    </blockquote>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#testimonialsCarousel" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon"></span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#testimonialsCarousel" data-bs-slide="next">
-                    <span class="carousel-control-next-icon"></span>
-                </button>
+                <div class="col-md-6">
+                    <blockquote class="blockquote">
+                        <p>"El proceso de compra fue fácil y rápido, totalmente recomendable."</p>
+                        <footer class="blockquote-footer">Carlos López</footer>
+                    </blockquote>
+                </div>
             </div>
         </div>
     </section>
 
     <!-- Contact Section -->
-    <section id="contact" class="py-5">
-        <div class="container text-center">
-            <h2 class="mb-4">Contacto</h2>
-            <form class="row g-3">
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-8 offset-md-2">
+                    <h2>Contáctanos</h2>
+                    <p class="mb-4">Si tienes alguna consulta o deseas saber más sobre nuestros servicios, no dudes en contactarnos.</p>
+                </div>
+            </div>
+            <div class="row">
                 <div class="col-md-6">
-                    <input type="text" class="form-control" placeholder="Nombre" required>
+                    <form>
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Nombre</label>
+                            <input type="text" class="form-control" id="name" placeholder="Tu nombre">
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Correo Electrónico</label>
+                            <input type="email" class="form-control" id="email" placeholder="Tu correo electrónico">
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Mensaje</label>
+                            <textarea class="form-control" id="message" rows="4" placeholder="Escribe tu mensaje"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-warning text-white">Enviar</button>
+                    </form>
                 </div>
                 <div class="col-md-6">
-                    <input type="email" class="form-control" placeholder="Correo Electrónico" required>
+                    <h4>Nuestra Información</h4>
+                    <p><strong>Dirección:</strong> Calle Ejemplo #123, Ciudad, País</p>
+                    <p><strong>Teléfono:</strong> +52 123 456 7890</p>
+                    <p><strong>Email:</strong> contacto@lopecastro.com</p>
                 </div>
-                <div class="col-12">
-                    <textarea class="form-control" rows="5" placeholder="Mensaje" required></textarea>
-                </div>
-                <div class="col-12">
-                    <button type="submit" class="btn btn-primary">Enviar</button>
-                </div>
-            </form>
+            </div>
         </div>
     </section>
 
     <!-- Footer -->
-    <footer class="bg-dark text-white py-3">
-        <div class="container text-center">
-            <p class="mb-0">&copy; 2024 Lope Castro. Todos los derechos reservados.</p>
+    <footer class="footer text-center">
+        <div class="container">
+            <p>&copy; 2024 Lope Castro. Todos los derechos reservados.</p>
+            <p>Construcción · Inmobiliaria · Crédito</p>
         </div>
     </footer>
 

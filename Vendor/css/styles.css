@@ -1,0 +1,54 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.hero {
+    background: url('../../assets/imagenes/hero-f.png') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+    display: flex;
+}
+.hero h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+.hero p {
+    font-size: 1.25rem;
+}
+.btn-primary {
+    background-color: #F68634;
+    border: none;
+}
+.btn-primary:hover {
+    background-color: #ff8f4c;
+}
+.section-title {
+    color: #32586B;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+.footer {
+    background-color: #32586B;
+    color: white;
+    padding: 20px 0;
+}
+.footer a {
+    color: #F68634;
+    text-decoration: none;
+}
+.footer a:hover {
+    text-decoration: underline;
+}
+.contact-section {
+    padding: 60px 0;
+    background-color: #32586B;
+    color: white;
+}
+.contact-section h2 {
+    color: #F68634;
+}
+.footer {
+    background-color: #212529;
+    color: white;
+    padding: 20px 0;
+}
