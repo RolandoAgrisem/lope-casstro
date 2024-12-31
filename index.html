@@ -17,28 +17,31 @@
     <link rel="stylesheet" href="./Vendor/css/MyStyles.css">
 </head>
 <body>
+    <!-- Icono flotante de WhatsApp -->
+    <a href="https://wa.me/+526671950988" class="whatsapp-float" target="_blank" data-aos="fade-up">
+        <i class="bi bi-whatsapp"></i>
+    </a>
+
     <header id="header" class="header d-flex align-items-center">
         <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
     
           <a href="index.html" class="logo d-flex align-items-center">
-            <img src="./assets/imagenes/logo-lg.jpg" alt="Lope Castro" style="width: 150px;">
+            <img src="./assets/imagenes/logo-remove-bg.png" class="img-fluid" alt="Lope Castro" style="width: 160px;">
           </a>
     
           <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
           <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
           <nav id="navbar" class="navbar">
             <ul>
-              <li><a href="index.html" class="active">Home</a></li>
-              <li><a href="about.html">About</a></li>
-              <li><a href="services.html">Services</a></li>
-              <li><a href="projects.html">Projects</a></li>
-              <li><a href="blog.html">Blog</a></li>
-              <li><a href="contact.html">Contact</a></li>
+              <li><a href="./index.html" class="active">Inicio</a></li>
+              <li><a href="#servicios">Servicios</a></li>
+              <li><a href="#proyectos">Proyectos</a></li>
+              <li><a href="#contactos">Contactanos</a></li>
+              <li><a href="#testimonios">Testimonios</a></li>
             </ul>
-          </nav><!-- .navbar -->
-    
+          </nav>    
         </div>
-    </header><!-- End Header -->
+    </header>
 
     <section id="hero" class="hero">
 
@@ -48,13 +51,13 @@
               <div class="col-lg-6 text-center">
                 <h2 data-aos="fade-down">Construimos tus sueños a medida</h2>
                 <p data-aos="fade-up">Residencial, comercial, inmobiliaria y cr&eacute;ditos con más de 10 años de experiencia.</p>
-                <a data-aos="fade-up" data-aos-delay="200" href="#get-started" class="btn-get-started">Conocenos</a>
+                <a data-aos="fade-up" data-aos-delay="200" href="#servicios" class="btn-get-started">Conocenos</a>
               </div>
             </div>
           </div>
         </div>
     
-        <div id="hero-carousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
+        <div id="hero-carousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
     
           <div class="carousel-item active" style="background-image: url(./assets/imagenes/hero/hero-carousel-1.jpg)">
           </div>
@@ -76,8 +79,8 @@
     </section>
 
     <main id="main">
-        <!-- Services Section -->
-        <section id="services" class="services section-bg">
+        <!-- Seccion Servicios -->
+        <section id="servicios" class="services section-bg">
             <div class="container" data-aos="fade-up">      
                 <div class="section-header">
                     <h2> <span class="d-none d-sm-inline">Nuestros</span> Servicios</h2>
@@ -87,10 +90,10 @@
                 </div>
       
                 <div class="row gy-4">
-                    <div class="col-lg-4 col-sm-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
                         <div class="service-item position-relative">
                             <div class="icon">
-                                <i class="fa-solid fa-mountain-city"></i>
+                                <i class="bi bi-buildings-fill"></i>
                             </div>
                             <h3>Construcci&oacute;n</h3>
                             <p>Nuestra experiencia garantiza la construcción de tu hogar o negocio ideal, 
@@ -102,7 +105,7 @@
                     <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
                         <div class="service-item position-relative">
                             <div class="icon">
-                                <i class="fa-solid fa-arrow-up-from-ground-water"></i>
+                                <i class="bi bi-building-fill"></i>
                             </div>
                             <h3>Inmobiliaria</h3>
                             <p>Te acompa&ntilde;amos en cada paso para hacer la compra, 
@@ -114,7 +117,7 @@
                     <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
                         <div class="service-item position-relative">
                             <div class="icon">
-                                <i class="fa-solid fa-compass-drafting"></i>
+                                <i class="bi bi-cash-coin"></i>
                             </div>
                             <h3>Cr&eacute;dito</h3>
                             <p>Te apoyamos con opciones de cr&eacute;dito, facilitando el camino hacia tus metas.</p>
@@ -124,9 +127,10 @@
       
             </div>
         </section>
-        <!-- End Services Section -->
+        <!-- Fin Seccion Servicios -->
 
-        <section id="projects" class="projects">
+        <!-- Seccion Proyectos -->
+        <section id="proyectos" class="projects">
             <div class="container" data-aos="fade-up">
       
               <div class="section-header">
@@ -154,8 +158,6 @@
                         <a href="./assets/imagenes/projects/remodeling-1.jpg" title="Remodeling 1"
                           data-gallery="portfolio-gallery-remodeling" class="glightbox preview-link"><i
                             class="bi bi-zoom-in"></i></a>
-                        <a href="project-details.html" title="More Details" class="details-link"><i
-                            class="bi bi-link-45deg"></i></a>
                       </div>
                     </div>
                   </div><!-- End Projects Item -->
@@ -169,8 +171,6 @@
                         <a href="./assets/imagenes/projects/construction-1.jpg" title="Construction 1"
                           data-gallery="portfolio-gallery-construction" class="glightbox preview-link"><i
                             class="bi bi-zoom-in"></i></a>
-                        <a href="project-details.html" title="More Details" class="details-link"><i
-                            class="bi bi-link-45deg"></i></a>
                       </div>
                     </div>
                   </div><!-- End Projects Item -->
@@ -183,8 +183,6 @@
                         <p>Lorem ipsum, dolor sit amet consectetur</p>
                         <a href="./assets/imagenes/projects/design-1.jpg" title="Repairs 1" data-gallery="portfolio-gallery-book"
                           class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                        <a href="project-details.html" title="More Details" class="details-link"><i
-                            class="bi bi-link-45deg"></i></a>
                       </div>
                     </div>
                   </div><!-- End Projects Item -->
@@ -198,8 +196,6 @@
                         <a href="./assets/imagenes/projects/construction-2.jpg" title="Construction 2"
                           data-gallery="portfolio-gallery-construction" class="glightbox preview-link"><i
                             class="bi bi-zoom-in"></i></a>
-                        <a href="project-details.html" title="More Details" class="details-link"><i
-                            class="bi bi-link-45deg"></i></a>
                       </div>
                     </div>
                   </div><!-- End Projects Item -->
@@ -212,8 +208,6 @@
                         <p>Lorem ipsum, dolor sit amet consectetur</p>
                         <a href="./assets/imagenes/projects/design-2.jpg" title="Repairs 2" data-gallery="portfolio-gallery-book"
                           class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                        <a href="project-details.html" title="More Details" class="details-link"><i
-                            class="bi bi-link-45deg"></i></a>
                       </div>
                     </div>
                   </div><!-- End Projects Item -->
@@ -226,8 +220,6 @@
                         <p>Lorem ipsum, dolor sit amet consectetur</p>
                         <a href="./assets/imagenes/projects/design-3.jpg" title="Repairs 3" data-gallery="portfolio-gallery-book"
                           class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                        <a href="project-details.html" title="More Details" class="details-link"><i
-                            class="bi bi-link-45deg"></i></a>
                       </div>
                     </div>
                   </div><!-- End Projects Item -->
@@ -237,10 +229,59 @@
               </div>
       
             </div>
-          </section><!-- End Our Projects Section -->
+        </section>
+        <!-- Fin Seccion Proyectos -->
+
+        <!-- Seccion Contactanos -->
+        <section id="contactos" class="py-5 section-bg">
+            <div class="container" data-aos="fade-up">
+                <div class="section-header">
+                    <h2>¡Contáctanos!</h2>
+                    <p>
+                        Estamos aquí para ayudarte. Elige el medio que prefieras para ponerte en contacto con nosotros.
+                    </p>
+                </div>
+                <div class="row g-4">
+                    <div class="col-md-4">
+                        <div class="service-card h-100 p-4">
+                            <div class="icon-wrapper mb-4" id="card-telefono">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="white" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/>
+                                    </svg>
+                            </div>
+                            <h4 class="service-title text-center mb-3">Tel&eacute;fono</h4>
+                            <p class="service-text text-center mb-0">+52 (667) 195 0988</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="service-card h-100 p-4" id="card-correo">
+                            <div class="icon-wrapper mb-4">
+                                <svg xmlns="http://www.w3.org/2000/svg" height="32" fill="white" viewBox="0 0 16 16" class="bi bi-phone" class="bi bi-envelope">
+                                    <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z"/>
+                                </svg>
+                            </div>
+                            <h4 class="service-title text-center mb-3">Correo</h4>
+                            <p class="service-text text-center mb-0">lopecastro@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="service-card h-100 p-4" id="card-direccion">
+                            <div class="icon-wrapper mb-4">
+                                <svg xmlns="http://www.w3.org/2000/svg"  width="32" height="32" fill="white" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                                    <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"/>
+                                    </svg>
+                            </div>
+                            <h4 class="service-title text-center mb-3">Direcci&oacute;n</h4>
+                            <p class="service-text text-center mb-0">Blvd Virreyes 342-int 9, Fraccionamiento Altezza, Culiacán, Mexico, 80177</p>
+                        </div>
+                    </div>
+                </div>
+                </div>
+        </section>
+        <!-- Fin Seccion Contactanos -->
     
-        <!-- ======= Testimonials Section ======= -->
-        <section id="testimonials" class="testimonials section-bg">
+        <!-- Seccion de Testimonios -->
+        <section id="testimonios" class="testimonials">
             <div class="container" data-aos="fade-up">
       
               <div class="section-header">
@@ -253,18 +294,16 @@
       
                   <div class="swiper-slide">
                     <div class="testimonial-wrap">
-                      <div class="testimonial-item">
-                        <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-                        <h3>Saul Goodman</h3>
-                        <h4>Ceo &amp; Founder</h4>
+                      <div class="testimonial-item">                        
+                        <h3>Roberto Martínez</h3>
+                        <!--<h4>Ceo &amp; Founder</h4>-->
                         <div class="stars">
                           <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
                             class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                         </div>
                         <p>
                           <i class="bi bi-quote quote-icon-left"></i>
-                          Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus.
-                          Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                          Gracias a Lope Castro, mi negocio ahora cuenta con un local moderno y funcional.
                           <i class="bi bi-quote quote-icon-right"></i>
                         </p>
                       </div>
@@ -273,18 +312,15 @@
       
                   <div class="swiper-slide">
                     <div class="testimonial-wrap">
-                      <div class="testimonial-item">
-                        <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-                        <h3>Sara Wilsson</h3>
-                        <h4>Designer</h4>
+                      <div class="testimonial-item">                        
+                        <h3>María López</h3>
                         <div class="stars">
                           <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
                             class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                         </div>
                         <p>
                           <i class="bi bi-quote quote-icon-left"></i>
-                          Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis
-                          quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+                          El proceso de financiamiento fue rápido y transparente, ¡altamente recomendado!
                           <i class="bi bi-quote quote-icon-right"></i>
                         </p>
                       </div>
@@ -293,18 +329,15 @@
       
                   <div class="swiper-slide">
                     <div class="testimonial-wrap">
-                      <div class="testimonial-item">
-                        <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-                        <h3>Jena Karlis</h3>
-                        <h4>Store Owner</h4>
+                      <div class="testimonial-item">                        
+                        <h3>Ana García</h3>
                         <div class="stars">
                           <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
                             class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                         </div>
                         <p>
                           <i class="bi bi-quote quote-icon-left"></i>
-                          Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim
-                          tempor labore quem eram duis noster aute amet eram fore quis sint minim.
+                          Con su ayuda, encontramos el hogar perfecto para nuestra familia.
                           <i class="bi bi-quote quote-icon-right"></i>
                         </p>
                       </div>
@@ -313,18 +346,15 @@
       
                   <div class="swiper-slide">
                     <div class="testimonial-wrap">
-                      <div class="testimonial-item">
-                        <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
-                        <h3>Matt Brandon</h3>
-                        <h4>Freelancer</h4>
+                      <div class="testimonial-item">                        
+                        <h3>Javier Fernández</h3>
                         <div class="stars">
                           <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
                             class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                         </div>
                         <p>
                           <i class="bi bi-quote quote-icon-left"></i>
-                          Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit
-                          minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
+                          La calidad de la construcción superó nuestras expectativas. Un servicio excelente.
                           <i class="bi bi-quote quote-icon-right"></i>
                         </p>
                       </div>
@@ -333,19 +363,15 @@
       
                   <div class="swiper-slide">
                     <div class="testimonial-wrap">
-                      <div class="testimonial-item">
-                        <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
-                        <h3>John Larson</h3>
-                        <h4>Entrepreneur</h4>
+                      <div class="testimonial-item">                        
+                        <h3>Sofía Herrera</h3>
                         <div class="stars">
                           <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
                             class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                         </div>
                         <p>
                           <i class="bi bi-quote quote-icon-left"></i>
-                          Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim
-                          culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum
-                          quid.
+                          El equipo de Lope Castro nos asesoró en todo momento. Ahora tenemos nuestra casa soñada.
                           <i class="bi bi-quote quote-icon-right"></i>
                         </p>
                       </div>
@@ -357,107 +383,39 @@
               </div>
       
             </div>
-          </section><!-- End Testimonials Section -->
-    
-        <!-- Contact Section -->
-        <section id="contact" class="py-5">
-            <div class="container" data-aos="fade-up">
-                <div class="section-header">
-                    <h2>¡Contáctanos!</h2>
-                    <p>
-                        Estamos aquí para ayudarte. Elige el medio que prefieras para ponerte en contacto con nosotros.
-                    </p>
-                </div>
-                <div class="row g-4">
-                    <div class="col-md-4">
-                        <div class="service-card h-100 p-4">
-                            <div class="icon-wrapper mb-4">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="white" class="bi bi-telephone-fill" viewBox="0 0 16 16">
-                                    <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/>
-                                  </svg>
-                            </div>
-                            <h4 class="service-title text-center mb-3">Tel&eacute;fono</h4>
-                            <p class="service-text text-center mb-0">+52 (667) 195 0988</p>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="service-card h-100 p-4">
-                            <div class="icon-wrapper mb-4">
-                                <svg xmlns="http://www.w3.org/2000/svg" height="32" fill="white" viewBox="0 0 16 16" class="bi bi-phone" class="bi bi-envelope">
-                                    <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z"/>
-                                </svg>
-                            </div>
-                            <h4 class="service-title text-center mb-3">Correo</h4>
-                            <p class="service-text text-center mb-0">lopecastro@gmail.com</p>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="service-card h-100 p-4">
-                            <div class="icon-wrapper mb-4">
-                                <svg xmlns="http://www.w3.org/2000/svg"  width="32" height="32" fill="white" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
-                                    <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"/>
-                                  </svg>
-                            </div>
-                            <h4 class="service-title text-center mb-3">Direcci&oacute;n</h4>
-                            <p class="service-text text-center mb-0">Blvd Virreyes 342-int 9, Fraccionamiento Altezza, Culiacán, Mexico, 80177</p>
-                        </div>
-                    </div>
-                </div>
-              </div>
         </section>
+        <!-- Fin Seccion de Testimonios -->
+
     </main>
 
-  <!-- ======= Footer ======= -->
-
-  <!--<footer id="footer" class="footer">
-
-    <div class="footer-content position-relative">
-      <div class="container">
-        <div class="row flex-wrap justify-content-between align-items-center">         
-            <div class="col-md-4 d-flex align-items-center">
-                <img src="./assets/imagenes/logo-lg.jpg" alt="Lope Castro" style="width: 150px;">
-            </div>
-            <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-                <li class="ms-3">
-                    <a class="text-muted" href="#">
-                        <i class="bi bi-twitter"></i>
-                    </a>
-                </li>
-            </ul>
-        </div>
-      </div>
-    </div>
-  </footer>-->
-
+    <!-- Footer -->
     <footer class="footer">
         <div class="container position-relative">
             <div class="d-flex flex-wrap justify-content-between">
                 <div class="col-md-4 d-flex align-items-center">
                     <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
-                        <img src="./assets/imagenes/logo-lg.jpg" alt="Lope Castro" style="width: 150px;">
+                        <img src="./assets/imagenes/logo-remove-bg.png" alt="Lope Castro" style="width: 180px;">
                     </a>
                   </div>
               
                   <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
                     <li class="ms-3 social-links">
-                        <a href="#">
-                            <i class="bi bi-twitter"></i>
+                        <a 
+                            href="https://www.instagram.com/lopecastro_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw%3D%3D"
+                            target="_blank">
+                            <i class="bi bi-instagram"></i>
                         </a>
                     </li>
                     <li class="ms-3 social-links">
-                        <a href="#">
+                        <a href="https://www.facebook.com/lopecastroconstruccion" target="_blank">
                             <i class="bi bi-facebook"></i>
-                        </a>
-                    </li>
-                    <li class="ms-3 social-links">
-                        <a href="#">
-                            <i class="bi bi-twitter"></i>
                         </a>
                     </li>
                   </ul>
             </div>
         </div>
     </footer>
+    <!--Fin Footer -->
 
     <script src="./Vendor/Boostrap5/bootstrap.bundle.min.js"></script>
     <script src="./Vendor/aos/aos.js"></script>

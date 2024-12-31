@@ -196,8 +196,25 @@ document.addEventListener('DOMContentLoaded', () => {
       mirror: false
     });
   }
+
   window.addEventListener('load', () => {
     aos_init();
   });
+
+  document.getElementById("card-direccion").addEventListener('click', function(){
+    window.open("https://maps.app.goo.gl/NLXVtUcrTvKMenkB9", "_blank")
+  })
+
+  document.getElementById("card-correo").addEventListener('click', function(){
+    const destinatario = "ejemplo@correo.com";
+    const asunto = "Consulta de Información";
+    const cuerpo = "Hola, me gustaría obtener más información sobre sus servicios.";
+    const mailtoLink = `mailto:${destinatario}?subject=${encodeURIComponent(asunto)}&body=${encodeURIComponent(cuerpo)}`;
+    window.location.href = mailtoLink; // Abre la app de correo
+  })
+  
+  document.getElementById("card-telefono").addEventListener('click', function(){
+    window.open("https://wa.me/+526671950988", "_blank")
+  })
 
 });
