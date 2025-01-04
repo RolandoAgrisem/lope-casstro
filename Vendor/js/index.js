@@ -88,7 +88,9 @@ document.addEventListener('DOMContentLoaded', () => {
    * Initiate glightbox
    */
   const glightbox = GLightbox({
-    selector: '.glightbox'
+    selector: '.glightbox',
+    touchNavigation: true,
+    loop: true,
   });
 
   /**
@@ -214,7 +216,7 @@ document.addEventListener('DOMContentLoaded', () => {
   })
   
   document.getElementById("card-telefono").addEventListener('click', function(){
-    window.open("https://wa.me/+526671950988", "_blank")
+    window.open("https://wa.me/+526673900000", "_blank")
   })
 
 });
