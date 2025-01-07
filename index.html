@@ -30,9 +30,11 @@
     <header id="header" class="header d-flex align-items-center">
         <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
     
-          <a href="index.html" class="logo d-flex align-items-center">
+          <!--<a href="index.html" class="logo d-flex align-items-center">
             <img src="./assets/imagenes/logo-remove-bg.png" class="img-fluid" alt="Lope Castro" style="width: 160px;">
-          </a>
+          </a>-->
+
+          <div></div>
     
           <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
           <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
@@ -42,7 +44,6 @@
               <li><a href="#servicios">Servicios</a></li>
               <li><a href="#proyectos">Proyectos</a></li>
               <li><a href="#contactos">Contactanos</a></li>
-              <li><a href="#testimonios">Testimonios</a></li>
             </ul>
           </nav>    
         </div>
@@ -52,10 +53,16 @@
 
         <div class="info d-flex align-items-center">
           <div class="container">
-            <div class="row justify-content-center">
+            <div class="row justify-content-center align-items-center">
+              <div class="col-lg-6">
+                <div class="logo-hero-container mb-5 p-0 shadow mx-2 mx-lg-5" data-aos="fade-down">
+                  <img src="./assets/imagenes/logo-remove-bg.png" class="img-fluid img-logo-hero" alt="Lope Castro">
+                </div>
+              </div>
               <div class="col-lg-6 text-center">
-                <h2 data-aos="fade-down">SUPERANDO TUS EXPECTATIVAS</h2>
-                <p data-aos="fade-up">Residencial, comercial, inmobiliaria y cr&eacute;ditos con más de 10 años de experiencia.</p>
+                <h2 data-aos="fade-down">SUPERANDO TUS <span class="color-primary fw-bold">EXPECTATIVAS</span></h2>
+                <p data-aos="fade-up">Residencial, comercial, inmobiliaria y cr&eacute;ditos con más de 
+                  <span class="color-primary fw-bold">10 a&ntilde;os de experiencia.</span></p>
                 <a data-aos="fade-up" data-aos-delay="200" href="#servicios" class="btn-get-started">Con&oacute;cenos</a>
               </div>
             </div>
@@ -89,7 +96,7 @@
                 <div class="section-header">
                     <h2> <span class="d-none d-sm-inline">Nuestros</span> Servicios</h2>
                     <p>
-                        Hacemos realidad tus metas con servicios de alta calidad.
+                        Hacemos realidad tus metas con <span class="color-primary fw-bold">servicios de alta calidad.</span>
                     </p>
                 </div>
       
@@ -100,7 +107,7 @@
                                 <i class="bi bi-buildings-fill"></i>
                             </div>
                             <h3>Construcci&oacute;n</h3>
-                            <p>Nuestra experiencia garantiza la construcción de tu hogar o negocio ideal, 
+                            <p>Nuestra experiencia garantiza <span class="color-primary fw-bold">la construcción de tu hogar o negocio ideal,</span> 
                                 desde la planeación hasta la entrega.
                             </p>
                         </div>
@@ -112,7 +119,9 @@
                                 <i class="bi bi-building-fill"></i>
                             </div>
                             <h3>Inmobiliaria</h3>
-                            <p>Te acompa&ntilde;amos en cada paso para hacer la compra, 
+                            <p>
+                              <span class="color-primary fw-bold">Te acompa&ntilde;amos en cada paso</span>
+                              para hacer la compra, 
                                 renta o venta de propiedades fácil y segura.
                             </p>
                         </div>
@@ -124,7 +133,7 @@
                                 <i class="bi bi-cash-coin"></i>
                             </div>
                             <h3>Cr&eacute;dito</h3>
-                            <p>Te apoyamos con opciones de cr&eacute;dito, facilitando el camino hacia tus metas.</p>
+                            <p>Te apoyamos con opciones de cr&eacute;dito, <span class="color-primary fw-bold">facilitando el camino hacia tus metas.</span></p>
                         </div>
                     </div>
                 </div>
@@ -139,7 +148,7 @@
       
               <div class="section-header">
                 <h2><span class="d-none d-sm-inline">Nuestros</span> Proyectos</h2>
-                <p>Soluciones Inmobiliarias y de Construcción de Alto Nivel. Mira Nuestros Proyectos.</p>
+                <p>Soluciones Inmobiliarias y de Construcción de Alto Nivel. <span class="color-primary fw-bold">Mira Nuestros Proyectos.</span></p>
               </div>
       
               <div class="portfolio-isotope" data-portfolio-filter="*" data-portfolio-layout="masonry"
@@ -356,7 +365,7 @@
                 <div class="section-header">
                     <h2>¡Contáctanos!</h2>
                     <p>
-                        Estamos aquí para ayudarte. Elige el medio que prefieras para ponerte en contacto con nosotros.
+                      <span class="color-primary fw-bold">Estamos aquí para ayudarte.</span> Elige el medio que prefieras para ponerte en contacto con nosotros.
                     </p>
                 </div>
                 <div class="row g-4">
@@ -397,112 +406,6 @@
                 </div>
         </section>
         <!-- Fin Seccion Contactanos -->
-    
-        <!-- Seccion de Testimonios -->
-        <section id="testimonios" class="testimonials">
-            <div class="container" data-aos="fade-up">
-      
-              <div class="section-header">
-                <h2>Testimonios</h2>
-                <p>Confianza construida a través de resultados. Escucha a quienes han confiado en nosotros.</p>
-              </div>
-      
-              <div class="slides-2 swiper">
-                <div class="swiper-wrapper">
-      
-                  <div class="swiper-slide">
-                    <div class="testimonial-wrap">
-                      <div class="testimonial-item">                        
-                        <h3>Roberto Martínez</h3>
-                        <!--<h4>Ceo &amp; Founder</h4>-->
-                        <div class="stars">
-                          <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                            class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                        </div>
-                        <p>
-                          <i class="bi bi-quote quote-icon-left"></i>
-                          Gracias a Lope Castro, mi negocio ahora cuenta con un local moderno y funcional.
-                          <i class="bi bi-quote quote-icon-right"></i>
-                        </p>
-                      </div>
-                    </div>
-                  </div><!-- End testimonial item -->
-      
-                  <div class="swiper-slide">
-                    <div class="testimonial-wrap">
-                      <div class="testimonial-item">                        
-                        <h3>María López</h3>
-                        <div class="stars">
-                          <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                            class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                        </div>
-                        <p>
-                          <i class="bi bi-quote quote-icon-left"></i>
-                          El proceso de financiamiento fue rápido y transparente, ¡altamente recomendado!
-                          <i class="bi bi-quote quote-icon-right"></i>
-                        </p>
-                      </div>
-                    </div>
-                  </div><!-- End testimonial item -->
-      
-                  <div class="swiper-slide">
-                    <div class="testimonial-wrap">
-                      <div class="testimonial-item">                        
-                        <h3>Ana García</h3>
-                        <div class="stars">
-                          <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                            class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                        </div>
-                        <p>
-                          <i class="bi bi-quote quote-icon-left"></i>
-                          Con su ayuda, encontramos el hogar perfecto para nuestra familia.
-                          <i class="bi bi-quote quote-icon-right"></i>
-                        </p>
-                      </div>
-                    </div>
-                  </div><!-- End testimonial item -->
-      
-                  <div class="swiper-slide">
-                    <div class="testimonial-wrap">
-                      <div class="testimonial-item">                        
-                        <h3>Javier Fernández</h3>
-                        <div class="stars">
-                          <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                            class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                        </div>
-                        <p>
-                          <i class="bi bi-quote quote-icon-left"></i>
-                          La calidad de la construcción superó nuestras expectativas. Un servicio excelente.
-                          <i class="bi bi-quote quote-icon-right"></i>
-                        </p>
-                      </div>
-                    </div>
-                  </div><!-- End testimonial item -->
-      
-                  <div class="swiper-slide">
-                    <div class="testimonial-wrap">
-                      <div class="testimonial-item">                        
-                        <h3>Sofía Herrera</h3>
-                        <div class="stars">
-                          <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                            class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                        </div>
-                        <p>
-                          <i class="bi bi-quote quote-icon-left"></i>
-                          El equipo de Lope Castro nos asesoró en todo momento. Ahora tenemos nuestra casa soñada.
-                          <i class="bi bi-quote quote-icon-right"></i>
-                        </p>
-                      </div>
-                    </div>
-                  </div><!-- End testimonial item -->
-      
-                </div>
-                <div class="swiper-pagination"></div>
-              </div>
-      
-            </div>
-        </section>
-        <!-- Fin Seccion de Testimonios -->
 
     </main>
 
@@ -511,10 +414,10 @@
         <div class="container position-relative">
             <div class="d-flex flex-wrap justify-content-between">
                 <div class="col-md-4 d-flex align-items-center">
-                    <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+                    <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1 logo-footer">
                         <img src="./assets/imagenes/logo-remove-bg.png" alt="Lope Castro" style="width: 180px;">
                     </a>
-                  </div>
+                </div>
               
                   <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
                     <li class="ms-2 social-links">
