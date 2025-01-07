@@ -208,11 +208,11 @@ document.addEventListener('DOMContentLoaded', () => {
   })
 
   document.getElementById("card-correo").addEventListener('click', function(){
-    const destinatario = "ejemplo@correo.com";
+    const destinatario = "lope@lopecastro.mx";
     const asunto = "Consulta de Información";
-    const cuerpo = "Hola, me gustaría obtener más información sobre sus servicios.";
+    const cuerpo = "Hola, me gustaria obtener mas informacion sobre sus servicios.";
     const mailtoLink = `mailto:${destinatario}?subject=${encodeURIComponent(asunto)}&body=${encodeURIComponent(cuerpo)}`;
-    window.location.href = mailtoLink; // Abre la app de correo
+    window.location.href = mailtoLink;
   })
   
   document.getElementById("card-telefono").addEventListener('click', function(){
